@@ -39,3 +39,4 @@ To get started with the Android_ChatGPT app, follow these steps:
 We welcome contributions to this project! If you would like to contribute, simply create a pull request with your changes. Any enhancements, bug fixes, or new features are greatly appreciated!
 
 🙏 Thank you for your interest in the Android_ChatGPT repository. Feel free to explore the code and engage in conversations with the AI model. Happy coding! 🚀✨
+"# SustainityAI-CellPhone" 
