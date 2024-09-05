@@ -39,13 +39,13 @@ To get started with the Android_ChatGPT app, follow these steps:
 
 Solution: go to the build.gradle (Easy ChatGPT) and change the following line:
 
-`plugins {
+`plugins {`
 
-   id 'com.android.application' version '7.3.0' apply false
+   `id 'com.android.application' version '7.3.0' apply false`
    
-   id 'com.android.library' version '7.3.0' apply false
+   `id 'com.android.library' version '7.3.0' apply false`
    
-}`
+`}`
 
 into
 
