@@ -34,9 +34,34 @@ To get started with the Android_ChatGPT app, follow these steps:
 2. In the `MainActivity.java` file, locate the line `Replace YOUR_API_KEY` and replace `YOUR_API_KEY` with your own OpenAI API key.
 3. Build and run the app on an Android device or emulator.
 
-🤝 **Contributing**
+**Common Error**
+1. Dependency 'androidx.activity:activity:1.9.1' requires libraries and applications that depend on it to compile against version 34 or later of the Android APIs.
 
-We welcome contributions to this project! If you would like to contribute, simply create a pull request with your changes. Any enhancements, bug fixes, or new features are greatly appreciated!
+Solution: go to the build.gradle (Easy ChatGPT) and change the following line:
 
-🙏 Thank you for your interest in the Android_ChatGPT repository. Feel free to explore the code and engage in conversations with the AI model. Happy coding! 🚀✨
+`plugins {
+   id 'com.android.application' version '7.3.0' apply false
+   id 'com.android.library' version '7.3.0' apply false
+}
+`
+into
+
+`plugins {
+   id 'com.android.application' version '8.0.2' apply false
+   id 'com.android.library' version '8.0.2' apply false
+}`
+
+For gradle.app file, change Line 7 from compileSdk 34 to compileSdk 35, change Line 12 from targetSdk 34 to targetSdk 35.
+
+2. Failed to Load responses due to internal error
+
+This error represents that your OpenAI account does not have sufficient funds. Add more funds in your account to solve this problem
+
+
+
+
+🤝 **Special Thanks**
+
+Special Thanks would be given to usamahussaindev for his project in NextGPT-OpenAI-Development, which has the following link: https://github.com/usamahussaindev/NextGPT-OpenAI-API-Integration.
+
 "# SustainityAI-CellPhone" 
