@@ -2,20 +2,21 @@
 
 📁 **Android_ChatGPT Repository**
 
-Welcome to the Android_ChatGPT repository! This repository contains the source code for a chat application that utilizes the OpenAI API and integrates with OkHttp. The app enables users to have conversations with an AI model powered by OpenAI's GPT-3 language model.
+This application is the Android Version of the SustainityAI, a project that provides users with personalized sustainable events based on the favorite activities they input. The project is designed using the Android Studio using Java and XML. The project also includes application (computerized) version and Web Version, which can be accessed through the following link:
 
+**Web:** https://github.com/repositor224/SustainityAI-Web- (Developed using Gradio and Python)
+
+**Computerized:** https://github.com/repositor224/SustainityAI-Web- (Developed using WindowBuilder and Java)
 
 ![presentationopen-ai-chat-gpt4-3pptx-1-2048](https://github.com/usamahussaindev/NextGPT-OpenAi-API/assets/118635657/efa601d2-3cd3-4fce-bccc-14373791a209)
 
 
-
-
-
 🎉 **Features**
 
-- Chat with an AI model using OpenAI's powerful GPT-3 language model.
-- Utilizes OkHttp library for seamless API integration.
-- Simple and user-friendly interface for smooth conversation flow.<br>  
+- Interactive page allowing users to input their preference that is used to decide their possible favourite sustainability activity
+- An Automated GPT system that generates user’s favorite activity in notification
+OkHttp library is utilized for seamless communication
+
 ![Screenshot 2023-07-07 155733](https://github.com/Usamahussain56/NextGPT/assets/118635657/b537ac88-229d-4a95-b254-c61694b0b274)<br>
 
 📋 **Requirements**
@@ -41,25 +42,27 @@ Solution: go to the build.gradle (Easy ChatGPT) and change the following line:
 
 `plugins {`
 
-   `id 'com.android.application' version '7.3.0' apply false`
+   `id 'com.android.application' version '8.0.2' apply false`
    
-   `id 'com.android.library' version '7.3.0' apply false`
+   `id 'com.android.library' version '8.0.2' apply false`
    
 `}`
 
 into
 
-`plugins {
-   id 'com.android.application' version '8.0.2' apply false
-   id 'com.android.library' version '8.0.2' apply false
-}`
+`plugins {`
+
+   `id 'com.android.application' version '8.2.4' apply false`
+   
+   `id 'com.android.library' version '8.2.4' apply false`
+   
+`}`
 
 For gradle.app file, change Line 7 from compileSdk 34 to compileSdk 35, change Line 12 from targetSdk 34 to targetSdk 35.
 
 2. Failed to Load responses due to internal error
 
 This error represents that your OpenAI account does not have sufficient funds. Add more funds in your account to solve this problem
-
 
 
 
